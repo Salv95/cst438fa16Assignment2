@@ -1,4 +1,6 @@
-package edu.csumb.cst438fa16hello.rest;
+
+ 
+ package edu.csumb.cst438fa16qa.rest;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
@@ -15,6 +17,7 @@ import javax.ws.rs.core.Response;
  * https://jersey.java.net/documentation/latest/test-framework.html
  * https://jersey.java.net/apidocs/latest/jersey/index.html
  */
+/*
 public class HelloServiceTest extends JerseyTest {
     @Override
     protected Application configure() {
@@ -50,4 +53,4 @@ public class HelloServiceTest extends JerseyTest {
         assertThat(response.getStatus(),
                    equalTo(Response.Status.BAD_REQUEST.getStatusCode()));  // assert
     }
-}
+}*/
